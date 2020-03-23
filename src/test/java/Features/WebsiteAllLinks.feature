@@ -5,7 +5,7 @@ Feature: SlideTeam Links
 Scenario: 
 
 	Given Open the Website URL.
-	Then Check eBooks Page.
+	Then Check Ebooks Page.
 	Then Pricing Page.
 	Then Free PPTs Page.
 	Then Most Downloaded Page.
