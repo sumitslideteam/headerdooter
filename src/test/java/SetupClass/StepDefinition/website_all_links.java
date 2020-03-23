@@ -81,7 +81,7 @@ public class website_all_links extends Setup {
 
 	@Then("^Check Ebooks Page\\.$")
 	public void check_Ebooks_Page() throws Throwable {
-		WebElement ebook = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='menu-link ebook-img'][contains(.,'eBooks')]")));
+		WebElement ebook = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='menu-link'][contains(.,'eBooks')]")));
 		clear_cache();
 		Thread.sleep(3000);
 		ebook.click();
